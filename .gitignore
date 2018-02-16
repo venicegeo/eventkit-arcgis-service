@@ -1,0 +1,7 @@
+*.sqlite3
+Include
+Lib
+Scripts
+tcl
+.idea
+pip-selfcheck.json
