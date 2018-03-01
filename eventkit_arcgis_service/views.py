@@ -57,4 +57,5 @@ def mxd(request):
         return response
     else:
         return JsonResponse({"error": "Invalid method",
-                             "message": "This endpoint requires a POST request with a JSON body, with the name of the geopackage."}, status=401)
+                             "message": "This endpoint requires a POST request with a JSON body, with the name of the"
+                                        "geopackage."}, status=401)
