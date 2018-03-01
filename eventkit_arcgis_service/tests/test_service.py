@@ -13,7 +13,7 @@ class TestService(TestCase):
 
     def setUp(self):
         self.sample_gpkg = './data/osm/test-osm-20180301.gpkg'
-        self.sample_mxd = 'C:\Users\edward.lane\work\eventkit-arcgis-service\eventkit_arcgis_service\static\sample_mxd.mxd'
+        self.sample_mxd = 'eventkit_arcgis_service\static\sample_mxd.mxd'
 
     def test_expand_bbox(self):
         self.assertEquals(expand_bbox([2,34,7,42], [5,20,300,24]), [2,20,300,42])
